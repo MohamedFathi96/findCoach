@@ -1,0 +1,14 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components {
+  .v-flex {
+    @apply flex flex-col gap-4 items-start;
+  }
+  .h-flex {
+    @apply flex gap-3;
+  }
+}
